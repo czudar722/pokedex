@@ -1,0 +1,57 @@
+body {
+    background-color: grey;
+    width: 70%;
+}
+nav {
+    display: inline;
+    background-color: deeppink;
+    box-sizing: border-box;
+    height: 70%;
+    list-style-type: none;
+
+
+}
+
+nav > ul li {
+    list-style-type: none;
+
+
+}
+
+aside {
+    box-sizing: content-box;
+    display: block;
+    background-color: deeppink;
+    height: 417px;
+
+
+}
+
+aside > ul li {
+    margin: 15px;
+    display: block;
+}
+
+ul {
+    background-color: deeppink;
+    margin: 15px;
+}
+
+li {
+    float: left;
+
+}
+
+article {
+    box-sizing: border-box;
+    float: left;
+    background-color: white;
+    width: 70%;
+}
+
+footer {
+    clear: both;
+    background-color: white;
+    padding:20px 10px;
+
+}
